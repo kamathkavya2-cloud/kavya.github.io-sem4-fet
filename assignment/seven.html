@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <body>
 
@@ -10,11 +10,18 @@
 
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
-  
+
+  <label for="place">Choose your Place:</label><br>
+  <select id="place" name="place">
+    <option value="" disabled selected>Select your city</option> <option value="mangalore">Mangalore</option>
+    <option value="bangalore">Bangalore</option>
+    <option value="udupi">Udupi</option>
+    <option value="mysore">Mysore</option>
+  </select>
+  <br><br>
+
   <input type="submit" value="Submit">
 </form>
-
-<p>The <b>placeholder</b> attribute acts as a hint for the user.</p>
 
 </body>
 </html>
