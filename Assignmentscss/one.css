@@ -1,15 +1,20 @@
+<!DOCTYPE html>
 <html>
-  <title>
-    my all assignments
-  </title>
-  <body>
-    <h1> kavya, here u can get all the HTML assignments in one place.</h1>
-    <p>
-      <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/one.html">1) Assignment.one </p>
-       <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/three.html">3) Assignment.three</p>
- <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/four.html">4) Assignment.four</p>
- <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/five.html">5) Assignment.five </p>
- <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/six.html">6) Assignment.six </p>
- <a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/seven.html">7) Assignment.seven </p>
-  </body>
+<head>
+    <title>My All Assignments</title>
+</head>
+<body>
+
+    <h1>Kavya, here you can get all the HTML assignments in one place.</h1>
+
+    <ul>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/one.html">Assignment One</a></li>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/three.html">Assignment Three</a></li>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/four.html">Assignment Four</a></li>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/five.html">Assignment Five</a></li>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/six.html">Assignment Six</a></li>
+        <li><a href="https://github.com/kamathkavya2-cloud/kavya.github.io-sem4-fet/blob/main/assignment/seven.html">Assignment Seven</a></li>
+    </ul>
+
+</body>
 </html>
