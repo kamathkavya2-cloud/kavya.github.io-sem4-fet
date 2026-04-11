@@ -2,14 +2,16 @@
   <title>
     my profilo of kavya
   </title>
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
   
     <body style="background-color:powderblue;">
     <h1>
       KAVYA
     </h1>
-     <p .p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}>
+     <p class ="p3">
+ 
       <h4 style="color:red;">it my first html progream and its my complte infomation.<br>
         im doing be in cse departnment.<br>
         its my next level experince.<br>
