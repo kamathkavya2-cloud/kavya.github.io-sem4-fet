@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Colorful Project</title>
+
     <style>
         h1 {
             border: 1px solid black;
@@ -20,15 +21,35 @@
             padding: 10px;
             margin-top: 20px;
             border: 2px solid gray;
-            outline-color:green;
+            outline-color: green;
         }
-        .kill{
-        		border:100px solid blue;
-                Text-align:center:
-                
+
+        .kill {
+            border: 10px solid blue;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Bottom split box */
+        .bottom-box {
+            display: flex;
+            border: 2px solid black;
+            margin-top: 30px;
+            height: 220px;
+        }
+
+        .left-side {
+            width: 50%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .right-side {
+            width: 50%;
         }
     </style>
 </head>
+
 <body>
 
     <h1 style="color:tomato">Hello, GitHub!</h1>
@@ -42,13 +63,51 @@
         <strong>MY DESCRIPTION</strong><br>
         Recently I have done 7 to 8 assignments on HTML and CSS.
     </p>
-    <p class="kill">
-    Right now i feeling good that i have learning something which i loved to.
-    
-    <br> this is good but i need to incerese the font size.
-    <br> <h3> lets do this kind work where i have border and within it i have some words which are in different works. </h3>
-     </p>
-    
 
+    <div class="kill">
+        <p>
+            Right now I am feeling good that I have learned something which I love.
+            <br> This is good but I need to increase the font size.
+        </p>
+
+        <h3>
+            Let’s do this kind of work where I have a border and inside it
+            some words with different styles.
+        </h3>
+    </div>
+
+    <div style="display:flex; border:2px solid black; margin-top:20px;">
+
+    <!-- LEFT SIDE (Bulb) -->
+    <div style="width:50%; text-align:center; padding:10px; border-right:1px solid black;">
+
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+            Turn on the light
+        </button>
+
+        <br><br>
+
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+        <br><br>
+
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+            Turn off the light
+        </button>
+
+    </div>
+
+    <!-- RIGHT SIDE (Text change JS) -->
+    <div style="width:50%; text-align:center; padding:10px;">
+
+        <p id="myThings">Now learning HTML and CSS.</p>
+
+        <button onclick="document.getElementById('myThings').innerHTML='I am learning HTML, CSS, and JavaScript.'">
+            Click Me!
+        </button>
+
+    </div>
+
+</div>
 </body>
 </html>
